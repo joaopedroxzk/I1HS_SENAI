@@ -1,0 +1,119 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url('imagens/background.jpg'); /* Background */
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .foto-sobre{
+    width: 150px;
+    height: 200px;
+    border-radius: 4px;
+    margin-right: 20px; 
+}
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  main {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  article {
+    margin-bottom: 30px;
+  }
+  
+  article img, article svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Hover e animação */
+  article img:hover, article svg:hover {
+    transform: scale(1.1);
+  }
+  article{
+    background: white;
+    margin: 10px;
+    padding: 20px;
+    flex: 1 1 calc(33% - 20px);
+    box-shadow: 0 2px 10px rgba(0,0,0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s box-shadow 0.3;
+}
+
+.foto-projeto{
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+article:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0,0,0, 0.2);
+}
+
+form{
+    background: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0, 0.1);
+}
+
+label{
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+input{
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+}
+button{
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover{
+    background-color: #45a049;
+}
+  
+  footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+  }
+  
